@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    background-image: url(../img/hs..svg);
+    width: 64px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+}
+
+p {
+    margin-right: 20px;
+    font: 500 22px 'DM Sans';
+    color: #181717;
+}
+
+.preview {
+    margin-top: 128px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+
+.info p {
+    font: 400 32px 'DM Sans';
+    color: #606060;
+}
+
+.arrow {
+    background-image: url(../img/↓.svg);
+    width: 34px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 128px;
+}
+
+.portfolio {
+    margin-top: 83px;
+    display: flex;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.box h2 {
+    font: 500 24px 'DM Sans';
+    margin-top: 83px;
+    color: #181717;
+}
+
+.box h3 {
+    font: 400 22px 'DM Sans';
+    color: #181717;
+    margin-top: 25px;
+}
+
+.box h4 {
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    margin-top: 35px;
+}
+
+.box p {
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    margin-top: 167px;
+    text-decoration: underline;
+}
+.rectangle{
+    background-image: url(../img/Thumbnail.svg);
+    width: 640px;
+    height: 365px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
