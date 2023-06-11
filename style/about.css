@@ -39,121 +39,102 @@ header nav p:not(:last-child) {
     margin-right: 20px;
 }
 
-.preview {
-    margin-top: 128px;
+main {
+    margin-top: 147px;
 }
 
-.info {
+.about {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 100px;
 }
 
-.info h1 {
+.about div h1 {
     font: 500 60px 'DM Sans';
     color: #181717;
+
 }
 
-.info p {
-    font: 400 32px 'DM Sans';
+.about p {
+    font: 400 24px 'DM Sans';
     color: #606060;
+    width: 575px;
+    margin-top: 20px;
+
 }
 
-.arrow {
-    background-image: url(../img/↓.svg);
-    width: 34px;
-    height: 40px;
+.image {
+    background-image: url(../img/Thumbn.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 128px;
-    position: relative;
+    width: 405px;
+    height: 458px;
 }
 
-.arrow:hover {
-    top: 2px;
-}
-
-.portfolio {
-    margin-top: 83px;
-    display: flex;
-}
-
-.flex1 {
+.skills div {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    justify-content: center;
+    width: 650px;
+
 }
 
-.box h2 {
-    font: 500 24px 'DM Sans';
-    margin-top: 83px;
-    color: #181717;
-}
-
-.box h3 {
-    font: 400 22px 'DM Sans';
-    color: #181717;
-    margin-top: 25px;
-}
-
-.box h4 {
-    font: 400 22px 'DM Sans';
-    color: #606060;
-    margin-top: 35px;
-}
-
-.box p {
+.skills div h3 {
     font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
     color: #181717;
-    margin-top: 167px;
-    text-decoration: underline;
 }
 
-.rectangle {
-    background-image: url(../img/Thumbnail.svg);
-    width: 640px;
-    height: 365px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 60px;
-
+.skills div p {
+    font: 400 20px 'DM Sans';
+    width: 430px;
+    color: #181717;
 }
 
 .line {
-
-    border: 1.5px solid #181717;
-    margin-top: 106px;
+    width: 1200px;
+    height: 2px;
+    background: #181717;
+    margin-top: 100px;
 }
 
-.project2 {
-    margin-top: 114px;
-    display: flex;
+.arrow {
+    background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 21px;
+    margin-top: 10px;
 }
 
-
-.flex2 {
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-}
-
-.project3 {
-    margin-top: 114px;
-    display: flex;
-}
-
-.flex3 {
+.contact {
+    margin-top: 71px;
+    margin-bottom: 135px;
     display: flex;
     justify-content: space-between;
-    justify-content: center;
+
+
+}
+
+.contact div {
+    direction: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.contact h2 {
+    width: 700px;
+    font: 400 32px 'DM Sans';
+    color: #181717;
+
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 126px;
-    margin-bottom: 20px;
+    margin-top: 135px;
+    margin-bottom: 172px;
 }
 
 footer nav {
